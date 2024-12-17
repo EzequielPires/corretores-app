@@ -28,11 +28,23 @@ class _HomePageState extends State<HomePage> {
                 color: Theme.of(context).scaffoldBackgroundColor,
               ),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 spacing: 16,
                 children: [
                   const CardScheduling(),
                   Button(
                     label: 'Ver agenda',
+                    onPressed: () {},
+                  ),
+                  const SizedBox(
+                    height: 8,
+                  ),
+                  const Text(
+                    'Cadastro de Leads:',
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+                  ),
+                  Button(
+                    label: 'Cadastrar novo lead',
                     onPressed: () {},
                   ),
                 ],

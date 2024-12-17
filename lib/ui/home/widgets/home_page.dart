@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
                   ),
                   Button(
-                    label: 'Cadastrar novo lead',
+                    label: 'Cadastrar novo Teste',
                     onPressed: () {},
                   ),
                 ],
